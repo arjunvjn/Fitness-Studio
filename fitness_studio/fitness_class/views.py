@@ -27,7 +27,7 @@ def create_fitness_class(request):
         - name (str): The name of the class (must be unique).
         - class_type (str): The type of class (e.g., yoga, zumba or hiit).
         - date (str): The class date (must be in yyyy-mm-dd format).
-        - member_max_count (int): Maximum allowed members for each slot.
+        - member_max_count (int): Maximum allowed members for each slot (not mandatory).
         - slots (list of objects): Contains the start time and end time of 
           each slot as an object in the list.
               - start (str): The start time of slot.
