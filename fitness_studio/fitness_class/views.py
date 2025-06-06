@@ -30,8 +30,8 @@ def create_fitness_class(request):
         - member_max_count (int): Maximum allowed members for each slot (not mandatory).
         - slots (list of objects): Contains the start time and end time of 
           each slot as an object in the list.
-              - start (str): The start time of slot.
-               - end (str): The end time of slot.
+              - start (str): The start time of slot (24 hr. format).
+               - end (str): The end time of slot (24 hr. format).
 
     Responses:
         - Success: If the class is created successfully, returns a status of "Success" 
